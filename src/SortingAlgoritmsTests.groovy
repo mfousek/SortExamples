@@ -1,4 +1,5 @@
 import junit.framework.TestCase
+import org.junit.Assert
 import org.junit.Test
 
 class SortingAlgoritmsTests extends TestCase {
@@ -25,6 +26,26 @@ class SortingAlgoritmsTests extends TestCase {
         testRightArray.add("Bob");
 
         assertTrue(helperIsListSorted(sAl.Merge(testLeftArray, testRightArray)));
+    }
+
+    @Test
+    public void testMergeWithTwoElement(){
+        SortingAlgoritms sAl = new SortingAlgoritms();
+        ArrayList<String> testLeftArray = new ArrayList<String>();
+        ArrayList<String> testRightArray = new ArrayList<String>();
+
+        testLeftArray.add("Tom");
+        testLeftArray.add("Zed")
+        testRightArray.add("Bob");
+        testRightArray.add("Jim");
+
+        List<String> expectedArray = new ArrayList<>();
+        expectedArray.add("Bob");
+        expectedArray.add("Jim");
+        expectedArray.add("Tom");
+        expectedArray.add("Zed");
+
+        assertEquals(sAl.Merge(testLeftArray, testRightArray), expectedArray);
     }
 
     @Test

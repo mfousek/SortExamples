@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0188087-0511-4bba-9538-b95c6d5fa118" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/SortingAlgoritms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingAlgoritms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortingAlgoritmsTests.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingAlgoritmsTests.groovy" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SortingAlgoritms.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SortingAlgoritms.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SortingAlgoritms.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="75">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortingAlgoritmsTests.groovy" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SortingAlgoritmsTests.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SortingAlgoritmsTests.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="233">
+              <caret line="47" column="90" selection-start-line="47" selection-start-column="90" selection-end-line="47" selection-end-column="90" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -61,8 +61,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SortingAlgoritmsTests.groovy" />
         <option value="$PROJECT_DIR$/src/SortingAlgoritms.java" />
+        <option value="$PROJECT_DIR$/src/SortingAlgoritmsTests.groovy" />
       </list>
     </option>
   </component>
@@ -124,7 +124,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in Sorts">
+  <component name="RunManager" selected="JUnit.SortingAlgoritmsTests.testMergeWithTwoElement">
     <configuration name="SortingAlgoritmsTests" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sorts" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -166,13 +166,32 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="SortingAlgoritmsTests.testMergeWithTwoElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sorts" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SortingAlgoritmsTests" />
+      <option name="METHOD_NAME" value="testMergeWithTwoElement" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <list>
       <item itemvalue="Android JUnit.SortingAlgoritmsTests" />
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.All in Sorts" />
+      <item itemvalue="JUnit.SortingAlgoritmsTests.testMergeWithTwoElement" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SortingAlgoritmsTests.testMergeWithTwoElement" />
         <item itemvalue="JUnit.All in Sorts" />
         <item itemvalue="Android JUnit.SortingAlgoritmsTests" />
       </list>
@@ -192,12 +211,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Sorts - 2018.10.06 at 14h 23m 19s.xml">
-      <configuration name="All in Sorts" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Sorts - 2018.10.06 at 14h 23m 39s.xml">
-      <configuration name="All in Sorts" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_Sorts - 2018.10.06 at 14h 32m 00s.xml">
       <configuration name="All in Sorts" configurationId="JUnit" />
     </history-entry>
@@ -220,6 +233,12 @@
       <configuration name="All in Sorts" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_Sorts - 2018.10.06 at 14h 39m 54s.xml">
+      <configuration name="All in Sorts" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Sorts - 2018.10.06 at 14h 42m 02s.xml">
+      <configuration name="All in Sorts" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Sorts - 2018.10.06 at 14h 43m 36s.xml">
       <configuration name="All in Sorts" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -260,22 +279,22 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SortingAlgoritmsTests.groovy">
+    <entry file="file://$PROJECT_DIR$/src/SortingAlgoritms.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="75">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SortingAlgoritms.java">
+    <entry file="file://$PROJECT_DIR$/src/SortingAlgoritmsTests.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="233">
+          <caret line="47" column="90" selection-start-line="47" selection-start-column="90" selection-end-line="47" selection-end-column="90" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
