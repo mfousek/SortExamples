@@ -20,8 +20,29 @@ public class SortingAlgoritms {
 
     public List<String> Merge(List<String> leftList, List<String> rightList) {
 
+        ArrayList<String> mergedList = new ArrayList<>();
+        while (leftList.size() > 0) {
+            while (rightList.size() > 0) {
 
-        return leftList;
+                if (leftList.get(0).compareTo(rightList.get(0)) <= 0) {
+                    mergedList.add(leftList.get(0));
+                    leftList.remove(0);
+                } else {
+                    mergedList.add(rightList.get(0));
+                    rightList.remove(0);
+                }
+            }
 
+            if(rightList.size() == 0 && leftList.size() > 0){
+                mergedList.add(leftList.get(0));
+                leftList.remove(0);
+            }
+        }
+
+        if(rightList.size() > 0){
+            mergedList.addAll(rightList);
+        }
+
+        return mergedList;
     }
 }
