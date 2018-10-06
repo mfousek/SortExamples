@@ -10,9 +10,21 @@ class SortingAlgoritmsTests extends TestCase {
         testArray.add("Bob");
         testArray.add("Tom");
         testArray.add("Sam");
-        List<String> sortedList = sAl.Sort(testArray);
+        List<String> sortedList = sAl.MergeSortResursive(testArray);
 
         assertTrue(helperIsListSorted(sortedList));
+    }
+
+    @Test
+    public void testMergeWithOneElement(){
+        SortingAlgoritms sAl = new SortingAlgoritms();
+        ArrayList<String> testLeftArray = new ArrayList<String>();
+        ArrayList<String> testRightArray = new ArrayList<String>();
+
+        testLeftArray.add("Tom");
+        testRightArray.add("Bob");
+
+        assertTrue(helperIsListSorted(sAl.Merge(testLeftArray, testRightArray)));
     }
 
     @Test
